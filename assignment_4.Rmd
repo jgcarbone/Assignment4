@@ -19,7 +19,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=TRUE)
 ```
 
 ## Assignment 4: Collaborating Together 
-CIAO CAIO
+
 ### Part 1: Contributing to another student's Github repository
 
 In this assignment, you will create a Github repository, containing this document and the .pdf output, which analyzes a dataset individually using some of the tools we have developed. 
@@ -60,6 +60,7 @@ datasummary((mean + median + sd + min + max) ~ Factor(treat)*(growth + rgdp60), 
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
 
+Julia Carbone has a table that shows the mean, median, standard deviation and minumum and maximum values for the binary variable treat. From the table we can see that on average countries that didnt experience a revolution have larger statistics than countries that did experience a revolution. This difference is particularly noticable when we look at the average growth rate wich is particularly higher for no revolution countries. 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
